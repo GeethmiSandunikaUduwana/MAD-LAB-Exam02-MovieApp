@@ -1,0 +1,26 @@
+<resources>
+    <!-- Style for Genres -->
+    <style name="GenreStyle">
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/genre_bg</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+
+    <!-- Style for Section Titles -->
+    <style name="SectionTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <!-- Style for Circular Images -->
+    <style name="CircleImage">
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">@drawable/circle_bg</item>
+    </style>
+</resources>

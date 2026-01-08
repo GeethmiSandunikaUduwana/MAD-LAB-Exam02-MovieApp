@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+
+    <ImageView
+        android:id="@+id/movie_image"
+        android:layout_width="401dp"
+        android:layout_height="814dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/movie_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/watch" />
+
+    <ImageView
+        android:id="@+id/back_arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/arrow"
+        android:contentDescription="@string/back"
+        android:rotation="90" />
+
+
+
+
+
+</RelativeLayout>
+
